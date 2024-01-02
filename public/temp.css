@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111;
+    color: #eee;
+    font-family: Open Sans, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 3em;
+    font-weight: bolder;
+}
+h2{
+    margin: 10px 0;
+    font-size: 2em;
+    text-align: center;
+}
+h3{
+    font-size: 1.5em;
+
+}
+a,.links{
+    color: #dde;
+    text-decoration: underline;
+}
+a:hover,.links:hover{
+    color: #fefeff;
+}
+a:visited,.links:visited{
+    color: #dcdced;
+}
+
+.back{
+    padding-top: 2em;
+    display: block;
+}
+.other-side{
+    text-align: right;
+    position:absolute;
+    right: 0;
+    bottom: 3em;
+    font-size: 2em;
+    color: #ccc;
+}
+.post{
+    margin-bottom: 2em;
+    background-color: #222;
+    padding: 1em;
+    border-radius: 5px;
+    margin-right: 1em;
+}
+.post-full{
+    margin: 2em,auto;
+    background-color: #222;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+
+.cat-banner{
+    margin:2em,auto;
+    background-color: #333;
+    padding:1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cat-element{
+    margin:0,auto;
+}
+
+.search-field{
+    padding: 1em;
+    background-color: #222;
+    color:#eee;
+    
+    border-radius: 5px;
+    margin:0 33%;
+    width: 33%; 
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+.navigation > li{
+    display: inline;
+    padding: 1em;
+    background-color: #222;
+    color:#eee;
+}
+.navigation > li:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.navigation > li:last-child{
+    border-radius: 0 5px 5px 0;
+}
+
+.input-form{
+    margin: 2em auto;
+    width: 20em;
+    background-color: #222;
+    padding: 1em;
+    border-radius: 5px;
+}
+td > label, td > input, .input-form>input,.input-form>label,.input-form>textarea,.input-form>select{
+    margin: 1em 0;
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+td >input, .input-form>input,.input-form>textarea,.input-form>select{
+    background-color: #333;
+    color: #eee;
+
+}
+.input-form > button{
+    margin: 1em 0;
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #eee;
+}
+.error{
+    font-size: .75em;
+    color:#fdd;
+}
+footer > .other-side{
+    right: 0;
+    bottom: 0;
+    font-size: 1em;
+    color: #eee;
+}
+
+.user-controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em 1em 1em auto;
+    width: 20em;
+    background-color: #222;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.all-posts >tbody> tr>td{
+    padding: 1em;
+    background-color: #222;
+    color:#eee;
+    border-radius: 5px;
+}
+.all-posts{
+    width:50%;
+    margin:2em auto;
+}
